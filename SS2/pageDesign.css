@@ -134,3 +134,10 @@ nav .menu li{
 #button2 {
     color: orange
 }
+
+/* Home content */
+
+.home-content .max-width{
+    display:flex;
+    
+}
