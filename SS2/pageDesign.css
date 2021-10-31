@@ -167,5 +167,31 @@ nav .menu li{
 /* Content box */
 
 .max-width .content-boxes .content-box{
-    
+    width: 250px;
+    height: fit-content;
+}
+.content-boxes .content-box i{
+    color: orange;
+    font-size: 50px;
+    line-height: 70px;
+}
+
+.content-boxes .content-box p{
+    font-family: 'Monserrat',sans-serif;
+    font-size: 15px;
+    line-height: 30px;
+    /* font-weight: 600; */
+    text-align: justify;
+}
+
+.content-boxes .content-box .title{
+    font-size: 20px;
+    text-align: left;
+    line-height: 40px;
+}
+
+.home-content .max-width .title{
+    font-size: 40px;
+    font-weight: lighter;
+    font-family: 'Monserrat',sans-serif;
 }
