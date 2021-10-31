@@ -155,3 +155,13 @@ nav .menu li{
 
 /* Box content */
 
+.home-content .max-width .content-boxes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0px, auto;
+    margin-top: 30px;
+    width: 1100px;
+}
+
+/* Content box */
