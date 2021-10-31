@@ -153,6 +153,13 @@ nav .menu li{
     font-weight: 300;
 }
 
+.orange-bar {
+    width: 100px;
+    height: 2px;
+    background-color: orange;
+    margin-top: 30px;
+}
+
 /* Box content */
 
 .home-content .max-width .content-boxes{
@@ -218,3 +225,4 @@ nav .menu li{
     display: block;
     z-index: 1;
 }
+
