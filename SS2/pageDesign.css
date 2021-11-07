@@ -324,5 +324,40 @@ form .label-area p{
 }
 
 form .input-area{
-    
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+}
+
+.input-area input{
+    height: 30px;
+    margin-bottom: 10px;
+}
+
+.input-area select{
+    height: 30px;
+    margin-bottom: 10px;
+}
+
+.input-area .check-box{
+    display:flex;
+}
+
+.input-area .check-box{
+    font-family: 'Montserrat', sans-serif;
+    line-height: 30px;
+    margin-left: 10px;
+    /* display: block;
+    text-align: end; */
+}
+
+.input-area button{
+    background-color: orange;
+    color: #ffff;
+    width: 120px;
+    height: 40px;
+    border-radius: 20px;
+    margin-top: 20px;
+    outline: none;
+    cursor: pointer;
 }
