@@ -367,3 +367,47 @@ form .input-area{
     border: 1px solid black;
     padding: 5px;
 }
+
+/* footer */
+
+.footer{
+    background-color: black;
+    width: 100%;
+}
+
+.footer .max-width{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer .max-width .info-top{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.info-top .menu{
+    width: 40%;
+}
+
+.info-top .menu a{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    color: rgb(179, 255, 255);
+    font-weight: 400;
+}
+.info-top .menu li{
+    list-style: none;
+}
+
+.footer .info-top .icon-contact {
+    color: rgb(179, 255, 255);
+    width: 15%;
+    margin-top: 15px;
+    font-size: 25px;
+    display:flex;
+    justify-content: space-between;
+}
+
