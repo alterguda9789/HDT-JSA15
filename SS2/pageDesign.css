@@ -282,3 +282,18 @@ nav .menu li{
     width: 160px;
     height: 50px;
 }
+
+
+/* form feedback */
+
+.feedback-form{
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.feedback-form .max-width{
+    width: 50%;
+    margin: 0px;
+}
