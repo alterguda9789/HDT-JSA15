@@ -361,3 +361,9 @@ form .input-area{
     outline: none;
     cursor: pointer;
 }
+
+
+.input-area textarea{
+    border: 1px solid black;
+    padding: 5px;
+}
