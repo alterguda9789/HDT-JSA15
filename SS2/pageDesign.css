@@ -68,7 +68,7 @@ nav .menu li{
 .opacity-menu{
     background-color: black;
     width: 100%;
-    height: 100%;
+    height:700px;
     opacity: 0.65;
     position: absolute;
     z-index: 2;
@@ -411,3 +411,6 @@ form .input-area{
     justify-content: space-between;
 }
 
+.cursor-pointer {
+    cursor: pointer;
+}
