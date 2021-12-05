@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WeatherApp</title>
     <link rel="stylesheet" href="./style.css">
+    <link href="https://pro.fontawesome.com/releases/v5.12.0/css/all.css" rel="stylesheet">
 </head>
 
 <body>
@@ -17,13 +18,13 @@
         <div class="main-section">
 
             <div class="section-bar">
-                <i></i>
-                <input type="text" name="search-city" id="search-input" placeholder="Tim kiem thanh pho" </div>
+                <i class="fas fa-search search-icon"></i>
+                <input type="text" name="search-city" id="search-input" placeholder="Tim kiem thanh pho"> </div>
 
                 <div class="info-wrapper">
                     <p class="city name">_ _</p>
                     <p class="weather-state">_ _</p>
-                    <img src="http://openweathermap.org/img/wn/10d@2x.png" alt="Not Found">
+                    <img class ="weather-icon" src="http://openweathermap.org/img/wn/10d@2x.png" alt="Not Found">
                     <p class="temperature">25°C</p>
 
 
@@ -67,6 +68,7 @@
 
         </div>
 
+        <script src="./js/index.js"></script>
 </body>
 
 </html>
