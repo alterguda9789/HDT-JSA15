@@ -71,3 +71,28 @@
     font-weight: lighter;
     position: relative;
 }
+
+.additional-section{
+    border-top: 1px solid #fff;
+    display: flex;
+    flex-direction: column;
+
+    padding: 10px 20px;
+    font-size: 13px;
+}
+
+.additional-section .row{
+    display: flex;
+    margin-bottom: 5px;
+}
+
+.additional-section .row .item{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    flex-shrink: 1;
+}
+
+.additional-section .row .label{
+    font-weight: bold;
+}
