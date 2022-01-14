@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    width: 100%;
+    height: 100px;
+    background-color: brown;
+    color: #fff;
+}
+
+h2 {
+    width: 100%;
+    height: 100px;
+    background-color: rgb(35, 197, 97);
+    color: #fff;
+
+}
+
+h3 {
+    width: 100%;
+    height: 100px;
+    background-color: rgb(26, 177, 214);
+    color: #fff;
+}
+
+h1, h2, h3 {
+    display: none;
+}
+
+
+/* Dành cho thiết bị di động */
+@media only screen and (max-width:739px) {
+    h1{
+        display: block;
+    }
+}
+
+/* Dành cho thiết bị tablet */
+@media only screen and (min-width: 740px) and (max-width: 1024px) {
+    h2{
+        display: block;
+    }
+}
+
+/* Dành cho thiết bị: PC */
+@media only screen and (min-width:1024px) {
+    h3{
+        display: block;
+    }
+}
